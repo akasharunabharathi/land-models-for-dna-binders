@@ -21,25 +21,25 @@ As outlined above, our intended method involves:
   
   b. Alternatively, instead of training a model to predict the sequences we bind to, what we can do is do MSA on our de novo proteins, and do homology analysis using MSA.
 
-4. Investigate the structure of these de novo proteins using AlphaFold 2, and also investigate whether these DNA sequences are naturally occurring using tools such as BLAST
+3. Investigate the structure of these de novo proteins using AlphaFold 2, and also investigate whether these DNA sequences are naturally occurring using tools such as BLAST
 
-a. BLAST is api
+  a. BLAST is api
+  
+  b. Alphafold2 can be used as a Colab Notebook through ColabFold (AlphaFold3 can also be used now)
+  
+  c. https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb#scrollTo=mbaIO9pWjaN0 
 
-b. Alphafold2 can be used as a Colab Notebook through ColabFold (AlphaFold3 can also be used now)
+4. Compute DNA binding affinity, interaction using AlphaFold 3
 
-c. https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb#scrollTo=mbaIO9pWjaN0 
+  a. AlphaFold3 Webserver
+  
+  b. Computational design of DNA binders paper
+  
+  c. Geometric deep learning of protein–DNA binding specificity paper
 
-6. Compute DNA binding affinity, interaction using AlphaFold 3
+5. Determine the viability of a language-modeling approach to generating DNA-binding proteins that does not explicitly account for structural challenges.
 
-a. AlphaFold3 Webserver
-
-b. Computational design of DNA binders paper
-
-c. Geometric deep learning of protein–DNA binding specificity paper
-
-8. Determine the viability of a language-modeling approach to generating DNA-binding proteins that does not explicitly account for structural challenges.
-
-a. Interpretation of the results.
+  a. Interpretation of the results.
 
 ### Related Work
 Computational Design of DNA binders, Cameron J. G. et al 2023
